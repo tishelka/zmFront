@@ -55,8 +55,8 @@ export const UserAuthPage = () => {
   };
 
   return (
-    <div className="container">
-      <div className="inputs">
+    <div className="authPageContainer">
+      <div className="authPageInputs">
         <div className="authInput">
           <h2>Почта</h2>
           <input
@@ -74,7 +74,7 @@ export const UserAuthPage = () => {
           />
         </div>
       </div>
-      <div className="authButtons">
+      <div className="authPageButtons">
         <button onClick={SignIn}>Зарегистрироваться</button>
         <button onClick={LogIn}>Войти</button>
       </div>

@@ -26,10 +26,20 @@
       "price": 2500
     }
   ],
-  "cartItems": [],
+  "cartItems": [
+    {
+      "title": "Чёрная футболка Nike",
+      "cover": "https://vipcross.ru/upload/iblock/eec/h25lpnsh00jmgj085ta2a39lsnj4lt1u.jpg",
+      "price": 3000,
+      "id": 1
+    }
+  ],
   "orders": [
     {
-      "items": ["Красная кофта Adidas", "Синие штаны Reebok"],
+      "items": [
+        "Красная кофта Adidas",
+        "Синие штаны Reebok"
+      ],
       "totalSum": 6000,
       "id": 1
     }

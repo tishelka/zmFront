@@ -11,7 +11,7 @@ export const Header = ({ searchItem }: HeaderProps) => {
     searchItem(event.target.value);
   };
   return (
-    <div className="container">
+    <div className="headerContainer">
       <h1>Clothes Shop</h1>
       <input placeholder="Найти товар..." onChange={handleSearchItem} />
       <p onClick={() => navigate("/cart")}>Корзина</p>
