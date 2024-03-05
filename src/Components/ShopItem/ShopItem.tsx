@@ -1,6 +1,6 @@
-import { ShopItemData } from "../../Pages/MainPage/MainPage";
 import "./ShopItem.scss";
 import axios from "axios";
+import { ShopItemData } from "../../Pages/MainPage/MainPage";
 
 export const ShopItem = ({ title, cover, price }: ShopItemData) => {
   const addToCart = () => {

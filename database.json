@@ -36,12 +36,14 @@
   ],
   "orders": [
     {
-      "items": [
-        "Красная кофта Adidas",
-        "Синие штаны Reebok"
-      ],
+      "items": ["Красная кофта Adidas", "Синие штаны Reebok"],
       "totalSum": 6000,
       "id": 1
+    },
+    {
+      "items": ["Чёрная футболка Nike", "Красная кофта Adidas"],
+      "totalSum": 6500,
+      "id": 2
     }
   ]
 }
